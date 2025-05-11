@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation</title>
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <img src="images/russell.jpg" alt="russell"  class="russell" >
+    </div>
+    <div class="form-container">
+        <h2 class="login">Reservation</h2>
+        <p class="redirect"> Creer une reservation</p>
+        <form action="/signup" method="post">
+             <div class="form-group">
+                <label for="catwayNumber">Numero de Catway</label>
+                <input type="text" id="catwayNumber" placeholder="Numero de Catway" required autocomplete="off">
+             </div>
+             <div class="form-group">
+                <label for="clientName">Nom & Prenom du client</label>
+                <input type="text" id="clientName" placeholder="Entrer les references du client" required autocomplete="off">
+             </div>
+             <div class="form-group">
+                <label for="boatName">Nom du bateau</label>
+                <input type="text" id="boatName" placeholder="Entrer le nom du bateau" required autocomplete="off">
+             </div>
+             <div class="form-group">
+                <label for="startDate">Date d'arrivee</label>
+                <input type="text" id="startDate" placeholder="Entrer la date d'arrivee" required autocomplete="off">
+             </div>
+             <div class="form-group">
+                <label for="endDate">Date de sortie</label>
+                <input type="text" id="endDate" placeholder="Entrer de sortie" required autocomplete="off">
+             </div>
+             <button class="submit-btn">Sauver</button>
+              <p class="redirect">retourner aux <a href="/catways">Catways</a></p>
+        </form>
+    </div>
+</body>
+</html>

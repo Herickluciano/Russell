@@ -137,5 +137,13 @@ body {
    a {
     text-decoration: none;
   }
+  .titre {
+    text-decoration: underline;
+    margin: 15px;
+  }
+  .tbord {
+    margin: 15px;
+  }
+  
   
   

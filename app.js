@@ -52,6 +52,9 @@ app.get("/catways",(req,res)=>{
 app.get("/reservation",(req,res)=>{
   res.render("reservation");
 });
+app.get("/tableauDeBord",(req,res)=>{
+  res.render("tableauDeBord");
+});
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
